@@ -1,0 +1,13 @@
+name = "Torimon"
+author = "kinggeert, jordy_vogeltjes"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3f68cca5e085f61df88e41b878cde36f3d3d3ad60b827d7ef9b79209b1da7ba2"
+
+[versions]
+fabric = "0.17.3"
+minecraft = "1.21.1"
