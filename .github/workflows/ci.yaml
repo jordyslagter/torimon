@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches-ignore: ["main"]
+    paths:
+      - ".github/**"
+      - "torimon/**"
+
+jobs:
+  export:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Export
+        run: |
+          docker run --rm -v $(pwd):/workspace dalbitresb12/packwiz modrinth export

@@ -1,8 +1,11 @@
-name: Deploy documentation to GitHub pages
+name: Docs
 
 on:
   push:
     branches: ["main"]
+    paths:
+      - ".github/**"
+      - "docs/**"
   workflow_dispatch:
 
 permissions:
@@ -16,10 +19,12 @@ concurrency:
 
 jobs:
   deploy:
+    runs-on: ubuntu-24.04
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-24.04
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4

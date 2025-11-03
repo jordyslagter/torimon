@@ -1,0 +1,37 @@
+name: CD
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/**"
+      - "torimon/**"
+
+jobs:
+  export_and_deploy:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate version
+        id: version
+        run: echo "date=$(date +'%Y-%m-%d-%H-%M')" >> $GITHUB_OUTPUT
+
+      - name: Export
+        run: |
+          docker run --rm -v $(pwd):/workspace dalbitresb12/packwiz modrinth export --output "basesci-${{ steps.version.outputs.date }}.mrpack"
+
+      - name: Deploy to GitHub
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          github-tag: ${{ steps.version.outputs.date }}
+          github-generate-changelog: true
+          github-token: ${{ secrets.GH_TOKEN }}
+
+          name: "${{vars.MC_VERSION}} - ${{ steps.version.outputs.date }}"
+          version: ${{ steps.version.outputs.date }}
+          files: "*.mrpack"
+          loaders: fabric
+          game-versions: ${{ vars.MC_VERSION }}
