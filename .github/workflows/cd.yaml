@@ -20,6 +20,7 @@ jobs:
         run: echo "date=$(date +'%Y-%m-%d-%H-%M')" >> $GITHUB_OUTPUT
 
       - name: Export
+        working-directory: torimon
         run: |
           docker run --rm -v $(pwd):/workspace dalbitresb12/packwiz modrinth export --output "basesci-${{ steps.version.outputs.date }}.mrpack"
 
@@ -32,6 +33,6 @@ jobs:
 
           name: "${{vars.MC_VERSION}} - ${{ steps.version.outputs.date }}"
           version: ${{ steps.version.outputs.date }}
-          files: "*.mrpack"
+          files: "torimon/*.mrpack"
           loaders: fabric
           game-versions: ${{ vars.MC_VERSION }}

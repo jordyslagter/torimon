@@ -16,5 +16,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Export
+        working-directory: torimon
         run: |
           docker run --rm -v $(pwd):/workspace dalbitresb12/packwiz modrinth export
