@@ -22,7 +22,7 @@ jobs:
       - name: Export
         working-directory: torimon
         run: |
-          docker run --rm -v $(pwd):/workspace dalbitresb12/packwiz modrinth export --output "basesci-${{ steps.version.outputs.date }}.mrpack"
+          docker run --rm -v $(pwd):/workspace dalbitresb12/packwiz modrinth export --output "torimon-${{ steps.version.outputs.date }}.mrpack"
 
       - name: Deploy to GitHub
         uses: Kir-Antipov/mc-publish@v3.3
