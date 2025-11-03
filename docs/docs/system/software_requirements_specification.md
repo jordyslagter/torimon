@@ -38,3 +38,4 @@ artefact.
 | NF06 | The modpack does not contain sponsor-only content                    | Modpack | Should have |
 | NF07 | The modpack does not contain recipe conflicts                        | Modpack | Should have |
 | NF08 | The modpack compiles in-game guides into one                         | Modpack | Could have  |
+| NF09 | The modpack contains icons for all mobs on the minimap               | Modpack | Should have |
