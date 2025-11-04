@@ -1,13 +1,13 @@
-name = "torimon"
-author = "kinggeert, jordy_vogeltjes"
+name = "Torimon"
+author = "geertbruls, jordyslagter"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "54126de1440c65e994cdd37d051fa1aa535a254f94a7ec620602d918b1e5603f"
+hash = "4c89555fef7045a67fa4f04763471546dff0eb3d7bd55656bfe62fe242cc16e6"
 
 [versions]
-fabric = "0.17.3"
 minecraft = "1.21.1"
+neoforge = "21.1.213"
