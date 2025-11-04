@@ -19,7 +19,7 @@ go install github.com/packwiz/packwiz@latest
 
 ## Set up development instance of Minecraft
 
-Open PrismLauncher and add a new instance with the _Fabric_ version listed in
+Open PrismLauncher and add a new instance with the _NeoForge_ version listed in
 [_pack.toml_](https://github.com/jordyslagter/torimon/blob/main/torimon/pack.toml)
 and run the instance once.
 
