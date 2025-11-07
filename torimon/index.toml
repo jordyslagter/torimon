@@ -5,6 +5,47 @@ file = "config/incontrol/spawn.json"
 hash = "0453f86ab61f20ac2f1ed5f0aa295931a67eecd5911e79a08c18c6deb483c684"
 
 [[files]]
+file = "config/paxi/resourcepacks/cobblemon-classic-grass-pack.pw.toml"
+hash = "754accb4ac44c21fa37c0216c6210b8e13e6c98248b3808d44be01c097c196c7"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/cobblemon-interface-modded.pw.toml"
+hash = "f812bf391fc0a1577007d566a1c87c4aa65286f56880b05552f186d28ebced52"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/cobblemon-interface.pw.toml"
+hash = "e06201469ddceef04df19dd7b992adceae3b6bf95ee602fe1272450050d749d0"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/cobblemon-original-pokemon-battle-music.pw.toml"
+hash = "a08864a5d805c48cffe9935d197d44be58cd974158780c88da6bc74bd8e27626"
+metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
+hash = "7925ee20a72c3400d470b982fcd788808d25e5446b4d456afad03da484456874"
+metafile = true
+
+[[files]]
+file = "configureddefaults/config/xaerominimap.txt"
+hash = "30c2864ceaf8e91638d16d637faa02e9ee424ea09756899d8710477e603f9d7f"
+
+[[files]]
+file = "configureddefaults/config/xaerominimap_entities.json"
+hash = "c98b3eceaa6603d1ab93d210dce961205e52d8ef8d9722e4e866b4d4e0987348"
+
+[[files]]
+file = "configureddefaults/config/xaeroplus.txt"
+hash = "7ca1b6438c4474fd8471deb0f5b457c020a73e1e0246b2a0ffece62ffb755a9f"
+
+[[files]]
+file = "configureddefaults/config/xaeroworldmap.txt"
+hash = "75a307c587e57be2dc9c5ec5483efa133e7d96a0bf8a82af3e1010f9595c6ae3"
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
@@ -22,6 +63,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "e3cb1eb238192071af93f764e3ff2c493f4f437802bb56273f664bafdea13f1d"
+metafile = true
+
+[[files]]
+file = "mods/configured-defaults.pw.toml"
+hash = "edccf044df3d6519c3f8cb35e1044687d1b5bdc676fdce919d0844a4d2515685"
 metafile = true
 
 [[files]]
@@ -81,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "a9593968393bae08257ba9aae887ad60fc49991f676b637006b2bcd89907f09a"
+hash = "3f1f9125896bff9902e3d4f9587723bb550060e7979ca787f06a44d1acb09ae8"
 metafile = true
 
 [[files]]
@@ -95,8 +141,33 @@ hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
 metafile = true
 
 [[files]]
+file = "mods/paxi.pw.toml"
+hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
+metafile = true
+
+[[files]]
+file = "mods/xaeroplus.pw.toml"
+hash = "03636eaa65730e65639d1e5c560045017117876837c0a8c48fe0798ca1f7854e"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "9d76c3683cfea5c5976823a000eacc9944db9f097894356d2a029cf36642ffa4"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "9b8940ac83dde84cfc59860c6544a4b1194e635786c26bd47dc15eee79e63598"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "d9c0c9209bac0b693af2a7c1e47ffb28d366bad19c91df31dc6d345fa75250a1"
 metafile = true
 
 [[files]]
