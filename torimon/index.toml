@@ -20,13 +20,13 @@ hash = "e06201469ddceef04df19dd7b992adceae3b6bf95ee602fe1272450050d749d0"
 metafile = true
 
 [[files]]
-file = "config/paxi/resourcepacks/cobblemon-original-pokemon-battle-music.pw.toml"
-hash = "a08864a5d805c48cffe9935d197d44be58cd974158780c88da6bc74bd8e27626"
+file = "config/paxi/resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
+hash = "7925ee20a72c3400d470b982fcd788808d25e5446b4d456afad03da484456874"
 metafile = true
 
 [[files]]
-file = "config/paxi/resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
-hash = "7925ee20a72c3400d470b982fcd788808d25e5446b4d456afad03da484456874"
+file = "config/paxi/resourcepacks/puffradio.pw.toml"
+hash = "b67df59b9ed2d7c5b6fd827848b7000a6a7297aeb78bc20242666a1989c24333"
 metafile = true
 
 [[files]]
@@ -101,8 +101,18 @@ hash = "05d96d5b17399f048469ff4b44451eb8d99cc7a2a075ff55718c397cb508b0c2"
 metafile = true
 
 [[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "dbd756dd9bb17e6ecebcf2d7052a67a2da1c7dd378bc2089bc154916080fe031"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "6bdf101d3d5ec8729a8095d5853f80eb925a47c889cd10de6704b20cc7f3c73e"
+metafile = true
+
+[[files]]
+file = "mods/immersive-snow.pw.toml"
+hash = "c8f17b808582f80a8afe90f44844ae83965afe6372c572ac5a27d595ad8c59b0"
 metafile = true
 
 [[files]]
@@ -143,6 +153,16 @@ metafile = true
 [[files]]
 file = "mods/paxi.pw.toml"
 hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
+metafile = true
+
+[[files]]
+file = "mods/seasonhud.pw.toml"
+hash = "d009a881fb3d7bf5d7a863896ce29b2637ea224c16ad20c046702f7642b37a47"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "73b1e4f6608fcd396acc3e4e7aa753d314c8810ef4caf831ed93d9932d93f896"
 metafile = true
 
 [[files]]
